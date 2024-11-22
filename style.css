@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+ font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: #1abc9c;
+}
+
+.wrapper{
+    width: 400px;
+    background: #fff;
+    border-radius: 5px;
+}
+.wrapper .title{
+    line-height: 90px;
+    background: #16a085;
+    text-align: center;
+    padding-left: 20px;
+    border-radius: 5px 5px 0 0;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.wrapper Form{
+    padding: 30px 20px 25px 20px;
+}
+.wrapper Form .row{
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+
+}
+
+.wrapper Form .row input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 60px;
+    border: 5px;
+    border-radius: 1px solid lightgrey;
+    font-size: 16px;
+}
+
+
+.wrapper Form .row i{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    color: #fff;
+    font-size: 18px;
+    background: #16a085;
+    border: 1px solid #16a085;
+    border-radius: 5px 0 0 5px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper Form .pass{
+    margin: -8px 0 20px 0;
+}
+.wrapper Form .pass a{
+    color: #16a085;
+    font-size: 17px;
+    text-decoration: none;
+}
+.wrapper Form .pass a:hover{
+    text-decoration: underline;
+}
+.wrapper Form .button input{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 0px;
+    background: #16a085;
+    border: 1px solid #16a085;
+    cursor: pointer;
+}
+Form .button input:hover{
+    background: #12876f;
+}
+
+.wrapper Form .Signup-link{
+    text-align: center;
+    margin-top: 20px;
+}
+.wrapper Form .Signup-link a{
+    color: #16a085;
+    font-size: 18px;
+    text-decoration: none;
+}
+Form .Signup-link a:hover{
+    text-decoration: underline;
+}
